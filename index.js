@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'eslint:recommended',
-    // 'airbnb-base',
+    'airbnb-base',
     'plugin:unicorn/recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier',
@@ -23,10 +23,15 @@ module.exports = {
     'import/prefer-default-export': 'off',
     '@typescript-eslint/indent': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
+    'prefer-const': 'error',
+    'no-var': 'error',
   },
   settings: {
     'import/parsers': {
-      'typescript-eslint-parser': ['.ts', '.tsx'],
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
+    'import/resolver': {
+      typescript: {},
     },
   },
 }
