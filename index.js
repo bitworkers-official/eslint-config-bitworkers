@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['eslint:recommended', 'prettier'],
+  extends: ['eslint:recommended', 'airbnb-base', 'prettier'],
   parser: '@typescript-eslint/parser',
   env: {
     browser: true,
@@ -10,6 +10,6 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'no-unused-vars': 'error',
+    'arrow-parens': ['error','as-needed'],
   },
 }

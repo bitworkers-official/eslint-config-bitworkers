@@ -1,3 +1,3 @@
-import typescript from 'typescript'
-const a = require('./index')
-const x = 2
+const d = a => 1 + a
+
+d(() => 1)
