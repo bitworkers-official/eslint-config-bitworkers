@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'eslint:recommended',
-    'airbnb-base',
+    // 'airbnb-base',
     'plugin:unicorn/recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier',
