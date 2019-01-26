@@ -14,7 +14,7 @@ npm install --save-dev eslint eslint-config-bitworkers
 
 Then add the extends to your .eslintrc:
 
-````json
+````jsonc
 {
   "extends": ["bitworkers"],
   "rules": {
