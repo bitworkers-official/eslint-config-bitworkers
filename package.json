@@ -17,10 +17,10 @@
   },
   "devDependencies": {
     "prettier-config-bitworkers": "^1.4.1",
-    "semantic-release": "^15.13.3",
-    "eslint": "^5.12.1"
+    "semantic-release": "^15.13.3"
   },
   "dependencies": {
+    "@typescript-eslint/parser": "^1.1.0",
     "eslint-config-prettier": "^3.6.0"
   },
   "peerDependencies": {
