@@ -23,8 +23,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     '@typescript-eslint/indent': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
-    'prefer-const': 'error',
-    'no-var': 'error',
+    '@typescript-eslint/explicit-member-accessibility': 'off',
   },
   settings: {
     'import/parsers': {

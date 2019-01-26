@@ -8,3 +8,5 @@ console.log(b)
 
 let y = 2
 y++
+
+const x = 2
