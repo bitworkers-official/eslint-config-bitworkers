@@ -21,3 +21,8 @@ const p = { l: 1, ...o }
 const { a } = o
 
 console.log(a)
+
+// eslint-disable-next-line guard-for-in
+for (const k in o) {
+  console.log(k)
+}
