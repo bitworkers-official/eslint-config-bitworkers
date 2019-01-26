@@ -20,13 +20,13 @@
   },
   "devDependencies": {
     "eslint": "5.12.1",
-    "eslint-import-resolver-typescript": "1.1.1",
     "prettier-config-bitworkers": "1.4.1",
     "semantic-release": "15.13.3",
     "typescript": "3.2.4",
     "prettier": "1.16.1"
   },
   "dependencies": {
+    "eslint-import-resolver-typescript": "1.1.1",
     "@typescript-eslint/eslint-plugin": "^1.1.0",
     "@typescript-eslint/parser": "^1.1.0",
     "eslint-config-airbnb-base": "^13.1.0",

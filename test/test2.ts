@@ -1,6 +1,7 @@
 import { Test } from './test'
 import { H } from './bot'
 
+console.log(H)
 const b: Test = {
   x: 1,
 }
