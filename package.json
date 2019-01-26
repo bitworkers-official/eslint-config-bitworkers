@@ -19,7 +19,9 @@
     "url": "https://github.com/bitworkers-official/eslint-config-bitworkers.git"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.1.0",
     "eslint": "^5.12.1",
+    "eslint-import-resolver-typescript": "^1.1.1",
     "prettier-config-bitworkers": "^1.4.1",
     "semantic-release": "^15.13.3",
     "typescript": "^3.2.4"
@@ -29,7 +31,8 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^3.6.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-unicorn": "^7.1.0"
+    "eslint-plugin-unicorn": "^7.1.0",
+    "prettier": "^1.16.1"
   },
   "peerDependencies": {
     "eslint": ">=5.12.1"
