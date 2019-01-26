@@ -26,6 +26,7 @@ module.exports = {
     '@typescript-eslint/explicit-member-accessibility': 'off',
     'prefer-object-spread': 'error',
     'guard-for-in': 'off',
+    'unicorn/no-process-exit': 'off',
   },
   settings: {
     'import/parsers': {
