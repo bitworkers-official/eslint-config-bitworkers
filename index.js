@@ -27,6 +27,7 @@ module.exports = {
     'prefer-object-spread': 'error',
     'guard-for-in': 'off',
     'unicorn/no-process-exit': 'off',
+    'no-console': 'off',
   },
   settings: {
     'import/parsers': {
