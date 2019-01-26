@@ -5,3 +5,6 @@ d(() => 1)
 // eslint-disable-next-line use-isnan
 if (NaN === 1) {
 }
+
+const [, , x] = [0, 0, 1]
+console.log(x)
