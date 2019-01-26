@@ -1,4 +1,5 @@
 import { Test } from './test'
+import { H } from './bot'
 
 const b: Test = {
   x: 1,
