@@ -24,6 +24,7 @@ module.exports = {
     '@typescript-eslint/indent': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
+    'prefer-object-spread': 'error',
   },
   settings: {
     'import/parsers': {
