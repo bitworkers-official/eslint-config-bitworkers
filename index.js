@@ -10,6 +10,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'arrow-parens': ['error','as-needed'],
+    'arrow-parens': ['error', 'as-needed'],
+    'no-plusplus': 'off',
   },
 }
