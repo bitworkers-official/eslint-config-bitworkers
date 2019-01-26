@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-bitworkers",
+  "version": "0.0.0-semantically-released",
+  "description": "ESLint configuration for Bitworkers",
+  "main": "index.js",
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [
+    "eslint-config"
+  ],
+  "author": "Bitworkers",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitworkers-official/eslint-config-bitworkers.git"
+  },
+  "devDependencies": {
+    "prettier-config-bitworkers": "^1.4.1",
+    "semantic-release": "^15.13.3",
+    "eslint": "^5.12.1"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^3.6.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.12.1"
+  }
+}
