@@ -29,6 +29,7 @@ module.exports = {
     'unicorn/no-process-exit': 'off',
     'no-console': 'off',
     'unicorn/filename-case': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
   },
   settings: {
     'import/parsers': {
