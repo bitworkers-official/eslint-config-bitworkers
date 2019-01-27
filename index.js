@@ -28,6 +28,7 @@ module.exports = {
     'guard-for-in': 'off',
     'unicorn/no-process-exit': 'off',
     'no-console': 'off',
+    'unicorn/filename-case': 'off',
   },
   settings: {
     'import/parsers': {
