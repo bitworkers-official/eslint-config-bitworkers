@@ -30,6 +30,19 @@ module.exports = {
     'no-console': 'off',
     'unicorn/filename-case': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/member-delimiter-style': [
+      'error',
+      {
+        multiline: {
+          delimiter: 'none',
+          requireLast: true,
+        },
+        singleline: {
+          delimiter: 'none',
+          requireLast: true,
+        },
+      },
+    ],
   },
   settings: {
     'import/parsers': {
