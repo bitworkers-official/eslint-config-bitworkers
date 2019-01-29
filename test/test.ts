@@ -11,5 +11,6 @@ console.log(x)
 
 // eslint-disable-next-line import/prefer-default-export
 export interface Test {
-  x: string;
+  x: string
+  y: string
 }
