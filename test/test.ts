@@ -14,3 +14,7 @@ export interface Test {
   x: string
   y: string
 }
+
+export function add(a: number, b: number) {
+  return a
+}
