@@ -2,7 +2,7 @@
 
 # eslint-config-bitworkers
 
-ESLint configuration for Bitworkers... Feel free to use this!
+> ESLint configuration for Bitworkers... Feel free to use this!
 
 ## Usage
 
