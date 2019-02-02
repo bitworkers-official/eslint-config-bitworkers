@@ -12,13 +12,13 @@ Install the config by running:
 npm install --save-dev eslint eslint-config-bitworkers
 ```
 
-Then add the extends to your .eslintrc:
+Then add the extends to your `.eslintrc.js`:
 
-```jsonc
-{
-  "extends": ["bitworkers"],
-  "rules": {
+```js
+module.exports = {
+  extends: ['bitworkers'],
+  rules: {
     // your overrides
-  }
+  },
 }
 ```
