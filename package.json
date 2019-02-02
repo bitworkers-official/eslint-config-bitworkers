@@ -22,8 +22,8 @@
     "eslint": "5.12.1",
     "prettier-config-bitworkers": "1.4.1",
     "semantic-release": "15.13.3",
-    "typescript": "3.2.4",
-    "prettier": "1.16.1"
+    "typescript": "3.3.1",
+    "prettier": "1.16.3"
   },
   "dependencies": {
     "eslint-import-resolver-typescript": "1.1.1",
