@@ -22,7 +22,7 @@
     "eslint": "5.13.0",
     "prettier-config-bitworkers": "1.4.1",
     "semantic-release": "15.13.3",
-    "typescript": "3.3.1",
+    "typescript": "3.3.3",
     "prettier": "1.16.4"
   },
   "dependencies": {
