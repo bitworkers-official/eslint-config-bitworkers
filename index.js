@@ -44,7 +44,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-unused-vars': 'error',
-    'no-use-before-define': 'off',
+    'no-use-before-define': 'off', // already in typescript-eslint
   },
   settings: {
     'import/parsers': {
