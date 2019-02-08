@@ -18,3 +18,5 @@ export interface Test {
 export function add(a: number, b: number) {
   return a
 }
+
+1 ** 2

@@ -4,6 +4,7 @@ module.exports = {
     'airbnb-base',
     'plugin:unicorn/recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:promise/recommended',
     'prettier',
   ],
   parser: '@typescript-eslint/parser',
