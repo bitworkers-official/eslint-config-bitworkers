@@ -1,5 +1,7 @@
-function m(a: number[]) {
-  return Promise.resolve()
-    .then(() => a)
-    .then(b => b.map(x => x + 1))
+const myPromise = Promise.resolve()
+
+function doSomethingElse() {
+  myPromise.then(console.log).catch(() => {})
 }
+
+doSomethingElse()

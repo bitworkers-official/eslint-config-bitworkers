@@ -8,7 +8,7 @@ module.exports = {
     'prettier',
   ],
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'promise'],
   env: {
     browser: true,
     node: true,
@@ -44,6 +44,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-unused-vars': 'error',
+    'no-use-before-define': 'off',
   },
   settings: {
     'import/parsers': {
