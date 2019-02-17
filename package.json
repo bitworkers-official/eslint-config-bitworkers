@@ -19,7 +19,7 @@
     "url": "https://github.com/bitworkers-official/eslint-config-bitworkers.git"
   },
   "devDependencies": {
-    "eslint": "5.13.0",
+    "eslint": "5.14.0",
     "prettier-config-bitworkers": "1.5.0",
     "semantic-release": "15.13.3",
     "typescript": "3.3.3",
