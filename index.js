@@ -45,6 +45,21 @@ module.exports = {
     ],
     '@typescript-eslint/no-unused-vars': 'error',
     'no-use-before-define': 'off', // already in typescript-eslint
+    'no-restricted-syntax': [
+      'error',
+      {
+        selector: 'ClassDeclaration',
+        message: 'Classes are not allowed.',
+      },
+      {
+        selector: 'FunctionExpression',
+        message: 'Function expressions are not allowed.',
+      },
+      {
+        selector: 'WithStatement',
+        message: 'With statements are not allowed.',
+      },
+    ],
   },
   settings: {
     'import/parsers': {
