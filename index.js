@@ -18,6 +18,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    curly: ['error', 'all'],
     'arrow-parens': ['error', 'as-needed'],
     'no-plusplus': 'off',
     'class-methods-use-this': 'off',
