@@ -53,10 +53,6 @@ module.exports = {
         message: 'Classes are not allowed.',
       },
       {
-        selector: 'FunctionExpression',
-        message: 'Function expressions are not allowed.',
-      },
-      {
         selector: 'WithStatement',
         message: 'With statements are not allowed.',
       },
