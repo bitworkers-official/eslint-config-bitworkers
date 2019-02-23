@@ -1,3 +1,8 @@
+import { A } from './bot'
+
+const a: A = 'hi'
+console.log(a)
+
 const d = a => 1 + a
 
 d(() => 1)
