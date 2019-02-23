@@ -1,5 +1,6 @@
 import { A } from './bot'
 
+export function o() {}
 const a: A = 'hi'
 console.log(a)
 
