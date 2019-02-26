@@ -25,6 +25,7 @@ module.exports = {
     'no-plusplus': 'off',
     'import/no-duplicates': 'error',
     'import/no-default-export': 'error',
+    'import/prefer-default-export': 'off',
     'import/extensions': ['error', 'never'],
     'import/newline-after-import': 'error',
     '@typescript-eslint/indent': 'off',
