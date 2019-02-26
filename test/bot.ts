@@ -6,3 +6,5 @@ if (x !== 2) {
 }
 
 export type A = string
+
+export function e(){}
