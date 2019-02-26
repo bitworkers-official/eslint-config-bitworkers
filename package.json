@@ -6,9 +6,6 @@
   "files": [
     "index.js"
   ],
-  "scripts": {
-    "semantic-release": "semantic-release"
-  },
   "keywords": [
     "eslint-config"
   ],
