@@ -62,6 +62,7 @@ module.exports = {
         message: 'With statements are not allowed.',
       },
     ],
+    'object-shorthand': ['error', 'always'],
   },
   settings: {
     'import/resolver': {
