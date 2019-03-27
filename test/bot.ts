@@ -12,3 +12,8 @@ export function e() {}
 function o() {
   return 2
 }
+
+interface d {
+  a: number
+}
+const a = { a: 2 } as d

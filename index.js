@@ -64,6 +64,7 @@ module.exports = {
       },
     ],
     'object-shorthand': ['error', 'always'],
+    '@typescript-eslint/no-object-literal-type-assertion': 'off', // TODO: enable when https://github.com/typescript-eslint/typescript-eslint/issues/312 is fixed
   },
   settings: {
     'import/resolver': {
