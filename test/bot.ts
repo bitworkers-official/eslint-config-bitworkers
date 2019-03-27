@@ -7,4 +7,8 @@ if (x !== 2) {
 
 export type A = string
 
-export function e(){}
+export function e() {}
+
+function o() {
+  return 2
+}

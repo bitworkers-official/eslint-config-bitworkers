@@ -21,6 +21,7 @@ module.exports = {
   },
   rules: {
     curly: ['error', 'all'],
+
     'arrow-parens': ['error', 'as-needed'],
     'no-plusplus': 'off',
     'import/no-duplicates': 'error',
@@ -29,7 +30,7 @@ module.exports = {
     'import/extensions': ['error', 'never'],
     'import/newline-after-import': 'error',
     '@typescript-eslint/indent': 'off',
-    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'error',
     '@typescript-eslint/explicit-member-accessibility': 'off',
     'prefer-object-spread': 'error',
     'guard-for-in': 'off',
