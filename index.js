@@ -5,9 +5,9 @@ module.exports = {
     'plugin:unicorn/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:promise/recommended',
-    'plugin:import/errors',
-    'plugin:import/warnings',
+    'plugin:import/recommended',
     'prettier',
+    'prettier/@typescript-eslint',
   ],
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'promise', 'import'],
@@ -21,13 +21,13 @@ module.exports = {
   },
   rules: {
     curly: ['error', 'all'],
-
+    'prefer-arrow-callback': 'error',
     'arrow-parens': ['error', 'as-needed'],
     'no-plusplus': 'off',
     'import/no-duplicates': 'error',
     'import/no-default-export': 'error',
     'import/prefer-default-export': 'off',
-    'import/extensions': ['error', 'never'],
+    'import/extensions': ['error', 'never', { json: 'always', css: 'always' }],
     'import/newline-after-import': 'error',
     '@typescript-eslint/indent': 'off',
     '@typescript-eslint/explicit-function-return-type': 'error',
@@ -64,6 +64,7 @@ module.exports = {
       },
     ],
     'object-shorthand': ['error', 'always'],
+    'arrow-body-style': ['error', 'as-needed'],
     '@typescript-eslint/no-object-literal-type-assertion': 'off', // TODO: enable when https://github.com/typescript-eslint/typescript-eslint/issues/312 is fixed
   },
   settings: {
