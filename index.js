@@ -6,11 +6,12 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:promise/recommended',
     'plugin:import/recommended',
+    'plugin:jsdoc/recommended',
     'prettier',
     'prettier/@typescript-eslint',
   ],
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'promise', 'import'],
+  plugins: ['@typescript-eslint', 'promise', 'import', 'jsdoc'],
   env: {
     browser: true,
     node: true,
@@ -65,6 +66,10 @@ module.exports = {
     ],
     'object-shorthand': ['error', 'always'],
     'arrow-body-style': ['error', 'as-needed'],
+    'jsdoc/require-description-complete-sentence': 'warn',
+    'jsdoc/require-hyphen-before-param-description': 'warn',
+    'jsdoc/require-param-type': 'off', // we use typescript instead
+    'jsdoc/require-returns-type': 'off', // we use typescript instead
     '@typescript-eslint/no-object-literal-type-assertion': 'off', // TODO: enable when https://github.com/typescript-eslint/typescript-eslint/issues/312 is fixed
   },
   settings: {
