@@ -69,6 +69,8 @@ module.exports = {
     'jsdoc/require-description-complete-sentence': 'warn',
     'jsdoc/require-hyphen-before-param-description': 'warn',
     'jsdoc/require-param-type': 'off', // we use typescript instead
+    'jsdoc/require-param': 'off',
+    'jsdoc/require-returns': 'off',
     'jsdoc/require-returns-type': 'off', // we use typescript instead
     '@typescript-eslint/no-object-literal-type-assertion': 'off', // TODO: enable when https://github.com/typescript-eslint/typescript-eslint/issues/312 is fixed
   },
