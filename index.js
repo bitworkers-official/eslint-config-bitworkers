@@ -72,7 +72,8 @@ module.exports = {
     'jsdoc/require-param': 'off',
     'jsdoc/require-returns': 'off',
     'jsdoc/require-returns-type': 'off', // we use typescript instead
-    '@typescript-eslint/no-object-literal-type-assertion': 'off', // TODO: enable when https://github.com/typescript-eslint/typescript-eslint/issues/312 is fixed
+    '@typescript-eslint/no-object-literal-type-assertion': 'off', // TODO: enable when https://github.com/typescript-eslint/typescript-eslint/issues/312 is fixed,
+    'prevent-abbreviation': 'off', // TODO: enable when https://github.com/sindresorhus/eslint-plugin-unicorn/issues/265 is fixed
   },
   settings: {
     'import/resolver': {
