@@ -80,4 +80,8 @@ module.exports = {
       typescript: {},
     },
   },
+  overrides: {
+    files: 'src/**/*.spec.ts',
+    env: { jest: true },
+  },
 }
