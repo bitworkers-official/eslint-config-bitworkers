@@ -65,6 +65,10 @@ module.exports = {
       },
     ],
     'object-shorthand': ['error', 'always'],
+    'import/no-extraneous-dependencies': [
+      'error',
+      { devDependencies: ['**/*.test.js', '**/*.spec.js'] },
+    ],
     'arrow-body-style': ['error', 'as-needed'],
     'jsdoc/require-description-complete-sentence': 'warn',
     'jsdoc/require-hyphen-before-param-description': 'warn',
