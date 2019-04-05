@@ -1,3 +1,3 @@
-import t from 'typescript'
+import t from 'json5'
 
 console.log(t)

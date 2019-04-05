@@ -31,7 +31,10 @@ module.exports = {
     'import/extensions': ['error', 'never', { json: 'always', css: 'always' }],
     'import/newline-after-import': 'error',
     '@typescript-eslint/indent': 'off',
-    '@typescript-eslint/explicit-function-return-type': 'error',
+    '@typescript-eslint/explicit-function-return-type': [
+      'error',
+      { allowExpressions: true },
+    ],
     '@typescript-eslint/explicit-member-accessibility': 'off',
     'prefer-object-spread': 'error',
     'guard-for-in': 'off',
@@ -67,7 +70,7 @@ module.exports = {
     'object-shorthand': ['error', 'always'],
     'import/no-extraneous-dependencies': [
       'error',
-      { devDependencies: ['**/*.test.ts', '**/*.spec.ts', '**/examples/**/*.ts'] },
+      { devDependencies: ['**/*.test.ts', '**/*.spec.ts', 'examples/**/*.ts'] },
     ],
     'arrow-body-style': ['error', 'as-needed'],
     'jsdoc/require-description-complete-sentence': 'warn',
