@@ -26,3 +26,5 @@ const a = function(): void {
 }
 
 const b = [].map(www => www + 1)
+
+let _k = 22

@@ -54,6 +54,7 @@ module.exports = {
         },
       },
     ],
+    'no-underscore-dangle':'off',
     '@typescript-eslint/no-unused-vars': 'error',
     'no-use-before-define': 'off', // already in typescript-eslint
     'no-restricted-syntax': [
