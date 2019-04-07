@@ -22,6 +22,22 @@ module.exports = {
   },
   rules: {
     curly: ['error', 'all'],
+    'prefer-destructuring': [
+      'error',
+      {
+        VariableDeclarator: {
+          array: false,
+          object: true,
+        },
+        AssignmentExpression: {
+          array: true,
+          object: false,
+        },
+      },
+      {
+        enforceForRenamedProperties: false,
+      },
+    ],
     'prefer-arrow-callback': 'error',
     'arrow-parens': ['error', 'as-needed'],
     'no-plusplus': 'off',

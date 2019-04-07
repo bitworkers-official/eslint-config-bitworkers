@@ -26,3 +26,11 @@ export function add(a: number, b: number) {
 }
 
 1 ** 2
+
+let hhh = 1
+
+const g = { hhh: 2 }
+
+hhh = g.hhh
+
+console.log(hhh)
