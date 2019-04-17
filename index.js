@@ -21,6 +21,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    'no-case-declarations':'off',
     curly: ['error', 'all'],
     'prefer-destructuring': [
       'error',
