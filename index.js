@@ -21,7 +21,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'no-case-declarations':'off',
+    'no-case-declarations': 'off',
     curly: ['error', 'all'],
     'prefer-destructuring': [
       'error',
@@ -91,6 +91,7 @@ module.exports = {
       { devDependencies: ['**/*.test.ts', '**/*.spec.ts', 'examples/**/*.ts'] },
     ],
     'arrow-body-style': ['error', 'as-needed'],
+    'jsdoc/require-jsdoc': 'off',
     'jsdoc/require-description-complete-sentence': 'warn',
     'jsdoc/require-hyphen-before-param-description': 'warn',
     'jsdoc/require-param-type': 'off', // we use typescript instead
