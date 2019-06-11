@@ -106,8 +106,14 @@ module.exports = {
       typescript: {},
     },
   },
-  overrides: {
-    files: '**/*.spec.ts',
-    env: { jest: true },
-  },
+  overrides: [
+    {
+      files: '**/*.spec.ts',
+      env: { jest: true },
+    },
+    {
+      files: '**/*.test.ts',
+      env: { jest: true },
+    },
+  ],
 }
