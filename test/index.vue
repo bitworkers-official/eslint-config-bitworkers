@@ -3,13 +3,13 @@
 </template>
 
 <script>
-export default {
+export default Vue.extend({
   data() {
     return {
       count: 1,
     }
   },
-}
+})
 </script>
 
 <style></style>

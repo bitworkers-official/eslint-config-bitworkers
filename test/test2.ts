@@ -1,7 +1,7 @@
 const myPromise = Promise.resolve()
 
-function doSomethingElse() {
-  myPromise.then(console.log).catch(() => {})
+function doSomethingElse(): void {
+  myPromise.then(console.log)
 }
 
 doSomethingElse()
