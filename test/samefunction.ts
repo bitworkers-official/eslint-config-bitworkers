@@ -20,7 +20,9 @@ function foo() {
 
 // a = foo()
 
-const c = 'hello'
+let c = 'hello'
 const d = 'hello'
 
 console.log(c, d)
+
+/* eslint-disable */

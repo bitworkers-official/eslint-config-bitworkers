@@ -8,6 +8,7 @@ module.exports = {
     'plugin:import/recommended',
     'plugin:jsdoc/recommended',
     'plugin:sonarjs/recommended',
+    'plugin:eslint-comments/recommended',
     'prettier',
     'prettier/@typescript-eslint',
   ],
