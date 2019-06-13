@@ -1,5 +1,8 @@
 <template>
-  <button @click="count++" @keydown.enter="count++"></button>
+  <div>
+    <button @click="count++" @keydown.enter="count++" />
+    <div />
+  </div>
 </template>
 
 <script>
