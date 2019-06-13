@@ -12,6 +12,8 @@ function k(): void {}
 })()
 // let a = []
 
+type a = 1
+
 // const a = [1, 2, 3].map(() => 22)
 
 /**
