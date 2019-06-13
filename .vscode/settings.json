@@ -1,0 +1,13 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    { "language": "vue", "autoFix": true }
+  ],
+  // Vetur settings
+  // https://marketplace.visualstudio.com/items?itemName=octref.vetur
+  "vetur.experimental.templateInterpolationService": true,
+  "vetur.format.defaultFormatter.html": "none",
+  "vetur.format.defaultFormatter.ts": "none",
+  "vetur.format.defaultFormatter.js": "none"
+}
