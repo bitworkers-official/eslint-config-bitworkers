@@ -26,4 +26,4 @@ module.exports = {
 The following extends are available:
 
 - `bitworkers` (the default)
-- `bitworkers/vue` (for vue projects, also includes the default)
+- `bitworkers/vue` (for Vue projects, also includes the default)
