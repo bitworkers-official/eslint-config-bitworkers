@@ -4,7 +4,10 @@
   "description": "ESLint configuration for Bitworkers",
   "main": "index.js",
   "files": [
-    "index.js"
+    "cypress.js",
+    "index.js",
+    "jest.js",
+    "vue.js"
   ],
   "keywords": [
     "eslint-config"
