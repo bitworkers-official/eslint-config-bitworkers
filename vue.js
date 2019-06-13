@@ -46,7 +46,6 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'import/no-default-export': 'off',
-    'vue/html-end-tags': 'error',
     'vue/html-self-closing': [
       'warn',
       {
