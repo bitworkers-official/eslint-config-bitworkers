@@ -1,5 +1,5 @@
 <template>
-  <button @click="count++"></button>
+  <button @click="count++" @keydown.enter="count++"></button>
 </template>
 
 <script>

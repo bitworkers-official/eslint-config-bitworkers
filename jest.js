@@ -1,0 +1,27 @@
+module.exports = {
+  plugins: ['jest'],
+  env: {
+    'jest/globals': true,
+  },
+  extends: ['plugin:jest/recommended'],
+  rules: {
+    'consistent-test-it': 'error',
+    'expect-expect': 'error',
+    'lowercase-name': 'error',
+    'no-commented-out-tests': 'error',
+    'no-empty-title': 'error',
+    'no-mocks-import': 'error',
+    'no-test-return-statement': 'error',
+    'no-truthy-falsy': 'error',
+    'prefer-expect-assertions': 'error',
+    'prefer-spy-on': 'error',
+    'prefer-strict-equal': 'error',
+    'prefer-to-be-null': 'error',
+    'prefer-to-be-undefined': 'error',
+    'prefer-to-contain': 'error',
+    'prefer-to-have-length': 'error',
+    'require-tothrow-message': 'error',
+    'prefer-todo': 'error',
+    'prefer-called-with': 'error',
+  },
+}

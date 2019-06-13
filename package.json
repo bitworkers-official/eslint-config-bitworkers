@@ -20,7 +20,7 @@
     "prettier": "1.18.2",
     "prettier-config-bitworkers": "1.5.1",
     "semantic-release": "15.13.16",
-    "typescript": "^3.5.1",
+    "typescript": "^3.5.2",
     "vue": "^2.6.10"
   },
   "dependencies": {

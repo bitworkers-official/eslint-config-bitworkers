@@ -202,11 +202,15 @@ module.exports = {
   overrides: [
     {
       files: '**/*.spec.ts',
-      env: { jest: true },
+      // TODO extend jest config
+      // extends:['./jest']
+      env: { jest: true }, // remove this
     },
     {
       files: '**/*.test.ts',
-      env: { jest: true },
+      // TODO extend jest config
+      // extends:['./jest']
+      env: { jest: true }, // remove this
     },
   ],
 }

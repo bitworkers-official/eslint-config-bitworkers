@@ -1,20 +1,17 @@
 module.exports = {
-  root: true,
   env: {
     node: true,
   },
   plugins: ['vue-a11y'],
   extends: [
-    'plugin:vue-a11y/base',
     './index.js',
     'plugin:vue/recommended',
+    'plugin:vue-a11y/base',
     '@vue/prettier',
     '@vue/typescript',
   ],
   rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'import/no-default-export': 'off',
+    // eslint plugin vue rules
     'vue/array-bracket-spacing': ['error', 'never'],
     'vue/arrow-spacing': ['error', { before: true, after: true }],
     'vue/block-spacing': ['error', 'always'],
@@ -44,6 +41,11 @@ module.exports = {
     'vue/space-infix-ops': 'error',
     'vue/space-unary-ops': ['error', { words: true, nonwords: false }],
     'vue/v-on-function-call': 'error',
+
+    // other rules
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'import/no-default-export': 'off',
   },
   parserOptions: {
     parser: '@typescript-eslint/parser',
