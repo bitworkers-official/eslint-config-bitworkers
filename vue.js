@@ -45,7 +45,6 @@ module.exports = {
     // other rules
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'import/no-default-export': 'off',
     'vue/html-self-closing': [
       'warn',
       {
@@ -62,4 +61,36 @@ module.exports = {
   parserOptions: {
     parser: '@typescript-eslint/parser',
   },
+  overrides: [
+    {
+      files: '**/*.vue',
+      rules: {
+        'import/no-default-export': 'off',
+      },
+    },
+    {
+      files: '**/store.ts',
+      rules: {
+        'import/no-default-export': 'off',
+      },
+    },
+    {
+      files: '**/store.js',
+      rules: {
+        'import/no-default-export': 'off',
+      },
+    },
+    {
+      files: '**/router.ts',
+      rules: {
+        'import/no-default-export': 'off',
+      },
+    },
+    {
+      files: '**/router.js',
+      rules: {
+        'import/no-default-export': 'off',
+      },
+    },
+  ],
 }
