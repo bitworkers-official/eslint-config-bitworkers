@@ -1,18 +1,26 @@
 <template>
   <div>
-    <button @click="count++" @keydown.enter="count++" />
+    <button
+      @click="count++"
+      @keydown.enter="count++"
+    />
     <div />
   </div>
 </template>
 
 <script>
-export default Vue.extend({
+export const x = 0
+
+export default {
   data() {
     return {
       count: 1,
     }
   },
-})
+}
 </script>
 
-<style></style>
+<style lang="stylus">
+hello
+  color green
+</style>

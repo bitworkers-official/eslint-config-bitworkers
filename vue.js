@@ -5,10 +5,9 @@ module.exports = {
   plugins: ['vue-a11y'],
   extends: [
     './index.js',
+    '@vue/typescript',
     'plugin:vue/recommended',
     'plugin:vue-a11y/base',
-    '@vue/prettier',
-    '@vue/typescript',
   ],
   rules: {
     ...require('./src/defaultRules'),
@@ -47,7 +46,19 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'import/no-default-export': 'off',
-    'vue/html-self-closing': 'error',
+    'vue/html-end-tags': 'error',
+    'vue/html-self-closing': [
+      'warn',
+      {
+        html: {
+          void: 'always',
+          normal: 'always',
+          component: 'always',
+        },
+        svg: 'always',
+        math: 'always',
+      },
+    ],
   },
   parserOptions: {
     parser: '@typescript-eslint/parser',

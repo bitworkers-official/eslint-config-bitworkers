@@ -46,3 +46,4 @@ function quux(): number {
 }
 
 console.log(add(1, 2), quux())
+/* eslint-disable */

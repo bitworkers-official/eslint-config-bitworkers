@@ -8,6 +8,7 @@
   // https://marketplace.visualstudio.com/items?itemName=octref.vetur
   "vetur.experimental.templateInterpolationService": true,
   "vetur.format.defaultFormatter.html": "none",
-  "vetur.format.defaultFormatter.ts": "none",
-  "vetur.format.defaultFormatter.js": "none"
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatter.ts": "prettier",
+  "vetur.format.defaultFormatter.stylus": "stylus-supremacy"
 }

@@ -1,6 +1,6 @@
 module.exports = {
   'eslint-comments/disable-enable-pair': 'off',
-  'eslint-comments/no-unlimited-disable':'off',
+  'unicorn/no-abusive-eslint-disable': 'off',
   'no-case-declarations': 'off',
   curly: ['error', 'all'],
   'prefer-destructuring': [
