@@ -1,6 +1,7 @@
 module.exports = {
-  extends: ['./vue.js'],
+  extends: ['./index.js'],
   rules: {
     '@typescript-eslint/no-require-imports': 'off',
+    'global-require': 'off',
   },
 }

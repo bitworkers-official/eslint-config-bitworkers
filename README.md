@@ -23,4 +23,7 @@ module.exports = {
 }
 ```
 
-<!-- TODO: no unncessary backticks `` -->
+The following extends are available:
+
+- `bitworkers` (the default)
+- `bitworkers/vue` (for vue projects, also includes the default)

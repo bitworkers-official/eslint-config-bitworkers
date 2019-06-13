@@ -11,6 +11,7 @@ module.exports = {
     '@vue/typescript',
   ],
   rules: {
+    ...require('./src/defaultRules'),
     // eslint plugin vue rules
     'vue/array-bracket-spacing': ['error', 'never'],
     'vue/arrow-spacing': ['error', { before: true, after: true }],
