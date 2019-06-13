@@ -7,11 +7,12 @@ module.exports = {
     'plugin:promise/recommended',
     'plugin:import/recommended',
     'plugin:jsdoc/recommended',
+    'plugin:sonarjs/recommended',
     'prettier',
     'prettier/@typescript-eslint',
   ],
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'promise', 'import', 'jsdoc'],
+  plugins: ['@typescript-eslint', 'sonarjs', 'promise', 'import', 'jsdoc'],
   env: {
     browser: true,
     node: true,

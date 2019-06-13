@@ -4,11 +4,11 @@ module.exports = {
   },
   plugins: ['vue-a11y'],
   extends: [
-    './index.js',
     'plugin:vue/recommended',
     'plugin:vue-a11y/base',
     '@vue/prettier',
     '@vue/typescript',
+    './index.js',
   ],
   rules: {
     // eslint plugin vue rules
