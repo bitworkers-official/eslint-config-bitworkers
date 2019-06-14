@@ -8,7 +8,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export const x = 0
 
 export default {
@@ -16,6 +16,11 @@ export default {
     return {
       count: 1,
     }
+  },
+  methods: {
+    update(event: any) {
+      this.$emit('update', event)
+    },
   },
 }
 </script>

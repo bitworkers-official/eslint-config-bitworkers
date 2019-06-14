@@ -3,7 +3,8 @@
     "target": "esnext",
     "strict": true,
     "skipLibCheck": true,
-    "allowJs": true
+    "allowJs": true,
+    "noImplicitThis": true
   },
   "include": ["test"],
   "exclude": ["node_modules"]
