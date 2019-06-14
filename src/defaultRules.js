@@ -156,7 +156,6 @@ module.exports = {
   'no-unused-vars': 'off',
   'no-useless-constructor': 'off',
   '@typescript-eslint/no-useless-constructor': 'error',
-  '@typescript-eslint/no-var-requires': 'error',
 
   '@typescript-eslint/prefer-for-of': 'error',
   '@typescript-eslint/prefer-function-type': 'error',
