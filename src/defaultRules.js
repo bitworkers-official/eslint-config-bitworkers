@@ -27,6 +27,7 @@ module.exports = {
   'import/prefer-default-export': 'off',
   'import/extensions': ['error', 'never', { json: 'always', css: 'always' }],
   'import/newline-after-import': 'error',
+  'import/no-commonjs': 'error',
   '@typescript-eslint/indent': 'off',
   '@typescript-eslint/explicit-function-return-type': [
     'error',
@@ -172,4 +173,5 @@ module.exports = {
   // '@typescript-eslint/unified-signatures': 'error',
   'no-useless-catch': 'error',
   quotes: ['error', 'single'],
+  '@typescript-eslint/no-var-requires': 'off',
 }

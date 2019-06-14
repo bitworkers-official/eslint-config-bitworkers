@@ -31,16 +31,16 @@ module.exports = {
   },
   overrides: [
     {
-      files: '**/*.spec.ts',
+      files: ['**/*.spec.ts', '**/*.test.ts'],
       // TODO extend jest config
       // extends:['./jest']
       env: { jest: true }, // remove this
     },
     {
-      files: '**/*.test.ts',
-      // TODO extend jest config
-      // extends:['./jest']
-      env: { jest: true }, // remove this
+      files: ['**/.eslintrc.js', '**/*.config.js'],
+      rules: {
+        'import/no-commonjs': 'off',
+      },
     },
   ],
 }

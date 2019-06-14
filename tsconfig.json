@@ -6,6 +6,6 @@
     "allowJs": true,
     "noImplicitThis": true
   },
-  "include": ["test"],
+  "include": ["test", "**/*.js"],
   "exclude": ["node_modules"]
 }

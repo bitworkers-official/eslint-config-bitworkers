@@ -1,3 +1,5 @@
+const path = require('path')
+
 const myPromise = Promise.resolve()
 
 function doSomethingElse(): void {
@@ -5,3 +7,4 @@ function doSomethingElse(): void {
 }
 
 doSomethingElse()
+console.log(path)
