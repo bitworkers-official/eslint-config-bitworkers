@@ -145,7 +145,6 @@ module.exports = {
   '@typescript-eslint/no-inferrable-types': 'error',
   '@typescript-eslint/no-misused-new': 'error',
   '@typescript-eslint/no-namespace': 'error',
-  '@typescript-eslint/no-require-imports': 'error',
   '@typescript-eslint/no-this-alias': [
     'error',
     {
@@ -174,4 +173,5 @@ module.exports = {
   'no-useless-catch': 'error',
   quotes: ['error', 'single'],
   '@typescript-eslint/no-var-requires': 'off',
+  '@typescript-eslint/no-require-imports': 'off',
 }
