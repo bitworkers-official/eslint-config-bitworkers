@@ -28,6 +28,7 @@ module.exports = {
   'import/extensions': ['error', 'never', { json: 'always', css: 'always' }],
   'import/newline-after-import': 'error',
   'import/no-commonjs': 'error',
+  'import/no-unresolved': ['error', { ignore: ['^vscode$'] }],
   '@typescript-eslint/indent': 'off',
   '@typescript-eslint/explicit-function-return-type': [
     'error',
