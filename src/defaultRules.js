@@ -176,4 +176,5 @@ module.exports = {
   '@typescript-eslint/no-var-requires': 'off',
   '@typescript-eslint/no-require-imports': 'off',
   'sonarjs/cognitive-complexity': 'off',
+  'unicorn/no-for-loop':'off'
 }
