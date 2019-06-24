@@ -1,8 +1,15 @@
 {
+  "htmlLanguageClient.trace.server": {
+    "verbosity": "verbose",
+    "format": "json"
+  },
   "eslint.validate": [
     "javascript",
     "typescript",
-    { "language": "vue", "autoFix": true }
+    {
+      "language": "vue",
+      "autoFix": true
+    }
   ],
   // Vetur settings
   // https://marketplace.visualstudio.com/items?itemName=octref.vetur
