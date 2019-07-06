@@ -2,13 +2,12 @@
   <div>
     <button
       @click="count++"
-      @keydown.enter="count++"
     />
     <div />
   </div>
 </template>
 
-<script lang="ts">
+<script>
 export const x = 0
 
 export default {

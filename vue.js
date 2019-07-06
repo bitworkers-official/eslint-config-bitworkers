@@ -4,6 +4,8 @@ module.exports = {
   },
   plugins: ['vue-a11y'],
   extends: [
+    'prettier',
+    'prettier/@typescript-eslint',
     // './index.js',
     '@vue/typescript',
     'plugin:vue/recommended',
