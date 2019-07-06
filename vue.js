@@ -4,13 +4,13 @@ module.exports = {
   },
   plugins: ['vue-a11y'],
   extends: [
-    './index.js',
+    // './index.js',
     '@vue/typescript',
     'plugin:vue/recommended',
     'plugin:vue-a11y/base',
   ],
   rules: {
-    ...require('./src/defaultRules'),
+    // ...require('./src/defaultRules'),
     // eslint plugin vue rules
     'vue/array-bracket-spacing': ['error', 'never'],
     'vue/arrow-spacing': ['error', { before: true, after: true }],
@@ -33,7 +33,7 @@ module.exports = {
         extensions: ['vue'],
       },
     ],
-    'vue/no-boolean-default': ['error', 'no-default|default-false'],
+    // 'vue/no-boolean-default': ['error', 'no-default|default-false'],
     // 'vue/no-deprecated-scope-attribute': 'error',
     // 'vue/no-empty-pattern': 'error',
     'vue/object-curly-spacing': ['error', 'always'],
@@ -62,35 +62,35 @@ module.exports = {
     parser: '@typescript-eslint/parser',
   },
   overrides: [
-    {
-      files: '**/*.vue',
-      rules: {
-        'import/no-default-export': 'off',
-      },
-    },
-    {
-      files: '**/store.ts',
-      rules: {
-        'import/no-default-export': 'off',
-      },
-    },
-    {
-      files: '**/store.js',
-      rules: {
-        'import/no-default-export': 'off',
-      },
-    },
-    {
-      files: '**/router.ts',
-      rules: {
-        'import/no-default-export': 'off',
-      },
-    },
-    {
-      files: '**/router.js',
-      rules: {
-        'import/no-default-export': 'off',
-      },
-    },
+    // {
+    //   files: '**/*.vue',
+    //   rules: {
+    //     'import/no-default-export': 'off',
+    //   },
+    // },
+    // {
+    //   files: '**/store.ts',
+    //   rules: {
+    //     'import/no-default-export': 'off',
+    //   },
+    // },
+    // {
+    //   files: '**/store.js',
+    //   rules: {
+    //     'import/no-default-export': 'off',
+    //   },
+    // },
+    // {
+    //   files: '**/router.ts',
+    //   rules: {
+    //     'import/no-default-export': 'off',
+    //   },
+    // },
+    // {
+    //   files: '**/router.js',
+    //   rules: {
+    //     'import/no-default-export': 'off',
+    //   },
+    // },
   ],
 }
