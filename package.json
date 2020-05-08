@@ -23,7 +23,7 @@
     "eslint": "6.8.0",
     "prettier": "2.0.5",
     "prettier-config-bitworkers": "1.5.1",
-    "semantic-release": "15.13.18",
+    "semantic-release": "17.0.7",
     "typescript": "^3.5.2",
     "vue": "^2.6.10"
   },
