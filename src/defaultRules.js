@@ -83,7 +83,7 @@ module.exports = {
   '@typescript-eslint/no-object-literal-type-assertion': 'off', // TODO: enable when https://github.com/typescript-eslint/typescript-eslint/issues/312 is fixed,
   'unicorn/prevent-abbreviations': 'off', // TODO: enable when https://github.com/sindresorhus/eslint-plugin-unicorn/issues/265 is fixed
   '@typescript-eslint/adjacent-overload-signatures': 'error',
-  '@typescript-eslint/array-type': ['error', 'array-simple'],
+  '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
   // '@typescript-eslint/await-thenable': 'error', // TODO: this is cool but doesn't work because of bug (https://github.com/prettier/prettier-eslint/issues/201)
   '@typescript-eslint/ban-types': [
     'error',
